@@ -42,15 +42,16 @@
     No, an argument of the main() method must be of String array
 
 ### Can we run a java class without the main() method?
-    No, the main() method is the entry point as from java 7. In previous releases of java we had static initializers as
-    alternatives i.e
-
-    public class Main{
-       static{
-          System.Out.Println("Static initiliazer");
-          System.exit(0);
-       }
+    No, the `main()` method is the entry point starting from Java 7. In previous versions of Java, we could use static initializers as an alternative, like this:
+    
+```java
+    public class Main {
+        static {
+            System.out.println("Static initializer");
+            System.exit(0);
+        }
     }
+```
 
 ### Can we make the main method as final in java?
     Yes, we can make it final
