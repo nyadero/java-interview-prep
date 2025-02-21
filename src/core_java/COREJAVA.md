@@ -22,7 +22,7 @@
     If the main() method is non-static, then the JVM needs to create an instance of the class and there would 
     be ambiguity if the constructor of that class takes an argument.
 
-    Why public? 
+    ## Why public? 
     Anyone can access/invoke any method having the public access modifier. The main() method has to be public so
     that it can be invoked by the JVM. 
 
